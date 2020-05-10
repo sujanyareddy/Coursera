@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    margin-top: 75px;
+    font-weight: 900;
+}
+section .container{
+    background-color: rgb(145, 142, 142);
+    margin-bottom: 5px;
+}
+section{
+    margin-top: 100px;
+    width:100%;
+
+}
+a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+.navbar{
+    background-color: rgb(156, 154, 154);
+}
+a.navbar-brand{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+div.col-md-12.col-sm-12.col-xs-12{
+    padding: 0px;
+}
+@media(max-width:767px){
+    .navbar-light .navbar-nav .nav-link{
+        color: black;
+        text-align: center;
+        background-color: white;
+        box-sizing: border-box;
+        border-color: 1px solid black;
+    }
+}
+@media(min-width:767px){
+    .navbar-light .navbar-nav .nav-link{
+        display:none;
+    }
+}
